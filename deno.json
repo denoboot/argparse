@@ -1,6 +1,12 @@
 {
   "name": "@denoboot/argparse",
   "version": "0.0.0",
+  "license": "MIT",
   "description": "A tiny, dependency-free argument parser",
-  "exports": "./mod.ts"
+  "exports": "./src/mod.ts",
+  "tasks": {
+    "lint": "deno lint",
+    "check": "deno check src/mod.ts",
+    "test": "deno test"
+  }
 }
